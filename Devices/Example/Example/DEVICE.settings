@@ -1,0 +1,4 @@
+MANUFACTURER=Example
+DEVICENAME=Example
+ARCHITECTURE=x86_64
+PATHTO=./Devices/Example/Example

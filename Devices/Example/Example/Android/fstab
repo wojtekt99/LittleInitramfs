@@ -1,0 +1,9 @@
+/dev/block/mmcblk0p1	/system		ext4	ro,errors=panic,noatime						0	0
+/dev/block/mmcblk0p2	/cache		ext4	discard,noatime							0	0
+/dev/block/mmcblk0p3	/data		ext4	defaults							0	0
+
+
+tmpfs			/tmp		tmpfs	mode=1777,noatime,defaults					0	0
+tmpfs			/var/tmp        tmpfs	mode=1777,noatime,defaults,nosuid,nodev				0       0
+tmpfs			/var/spool      tmpfs	mode=1777,noatime,defaults					0       0
+tmpfs			/var/log	tmpfs	mode=0755,noatime,defaults					0       0

@@ -1,0 +1,6 @@
+/dev/sda1		/newroot	ext4	ro,errors=panic,noatime						0	0
+
+tmpfs			/tmp		tmpfs	mode=1777,noatime,defaults					0	0
+tmpfs			/var/tmp        tmpfs	mode=1777,noatime,defaults,nosuid,nodev				0       0
+tmpfs			/var/spool      tmpfs	mode=1777,noatime,defaults					0       0
+tmpfs			/var/log	tmpfs	mode=0755,noatime,defaults					0       0
